@@ -23,7 +23,7 @@ body
 }
 
 #homeFullScreen {
-    background-image: url('../Images/header.png');
+    background-image: url('../Images/');
     overflow: hidden;
 }
 
