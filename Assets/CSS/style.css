@@ -30,7 +30,7 @@ header {
 }
 
 #homeFullScreen {
-    background-image: url('../Images/');
+    background-image: url('./assets/images/ ');
     overflow: hidden;
 }
 
