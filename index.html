@@ -32,6 +32,36 @@
 <body>
     <header>
         <h5>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#about me">About Me</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#resume">Resume</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" href="#portfolio">Portfolio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" href="#contact me" tabindex="-1" aria-current="true">Contact
+                                    Me</a>
+                            </li>
+                        </ul>
+                        <!-- <form class="d-flex">
+                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                            <button class="btn btn-outline-success" type="submit">Search</button>
+                        </form> -->
+
+                    </div>
+                </div>
+            </nav>
+
             <!-- navigation -->
             <!-- <nav>
 
@@ -63,11 +93,15 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-6 col-sm-6">
-                    <div class="feature-box">
-                        <h1>about me</h1>
-                        <p>A learning and development professional with extensive expertise in teaching and learning initiatives and a passion for delivering impactful learning experiences to individuals, clients, vendors, and staff. 
-                            Able to successfully design, develop, implement, and maintain classroom and e-learning training curriculum.</p>
-                    </div>
+                    <section id="about me" class="about me">
+                        <div class="feature-box">
+                            <h1>about me</h1>
+                            <p>A learning and development professional with extensive expertise in teaching and learning
+                                initiatives and a passion for delivering impactful learning experiences to individuals,
+                                clients, vendors, and staff.
+                                Able to successfully design, develop, implement, and maintain classroom and e-learning
+                                training curriculum.</p>
+                        </div>
                 </div><!-- End col-md-6 -->
                 <div class="col-md-3 col-sm-3 nopadding">
                     <img src="./Assets/Images/Felicia Harris Foster.jpg">
@@ -80,9 +114,11 @@
                 </div><!-- End col-md-6 -->
                 <div class="col-md-6 col-sm-6">
                     <div class="feature-box">
-                        <h1>resume</h1>
-                        <embed src="./Assets/Images/Felicia Harris-Foster-Instructional Designer-WGU.pdf" width="800px" height="250px"/>
-                        <!-- <p>Lorem Ipsum is Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                        <section id="resume" class="resume">
+                            <h1>resume</h1>
+                            <embed src="./Assets/Images/Felicia Harris-Foster-Instructional Designer-WGU.pdf"
+                                width="800px" height="250px" />
+                            <!-- <p>Lorem Ipsum is Lorem Ipsum is simply dummy text of the printing and typesetting industry.
                             Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p> -->
                     </div>
                 </div><!-- End col-md-6 -->
@@ -92,7 +128,7 @@
 
     <!-- portfolio -->
 
-    <section class="portfolio">
+    <section id="portfolio" class="portfolio">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
@@ -105,7 +141,7 @@
                 <div class="col-md-6 col-sm-6">
                     <img src="./Assets/Images/ID Sample Screenshots/CRJ 2300 M1.JPG">
                 </div><!-- End col-md-4 -->
-                
+
                 <div class="clearfix"></div><!-- End clearfix -->
 
                 <div class="col-md-6 col-sm-5">
@@ -125,47 +161,48 @@
     </section>
 
     <!-- Call to Action -->
-    <section class="call-top-action text-center">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <h1>contact me</h1>
-                    <p>Felicia Harris-Foster  
-                        <br />
-                        Email: fharrisfoster@gmail.com
-                    </p>
-                    <p>Phone: 123-456-7890 
-                        <br />
-                        
-                    <!-- </p><span>LOREM IPSUM</span> -->
-                </div><!-- End col-md-12 -->
-            </div><!-- End row -->
-        </div><!-- End container -->
-    </section>
+    <section id="contact me" class="contact me">
+        <section class="call-top-action text-center">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h1>contact me</h1>
+                        <p>Felicia Harris-Foster
+                            <br />
+                            Email: fharrisfoster@gmail.com
+                        </p>
+                        <p>Phone: 123-456-7890
+                            <br />
 
-    <!-- Footer -->
-    <footer>
-        <ul class="in-line">
-            <!-- <li><a href="#"><span><i class="fa fa-facebook"></i></span></a></li>
+                            <!-- </p><span>LOREM IPSUM</span> -->
+                    </div><!-- End col-md-12 -->
+                </div><!-- End row -->
+            </div><!-- End container -->
+        </section>
+
+        <!-- Footer -->
+        <footer>
+            <ul class="in-line">
+                <!-- <li><a href="#"><span><i class="fa fa-facebook"></i></span></a></li>
             <li><a href="#"><span><i class="fa fa-twitter"></i></span></a></li>
             <li><a href="#"><span><i class="fa fa-youtube"></i></span></a></li> -->
-        </ul>
-        <!-- <span class="copyright">&#169; Untitled . All rights reserved. Design By <a
+            </ul>
+            <!-- <span class="copyright">&#169; Untitled . All rights reserved. Design By <a
                 href="http://templatestock.co">Templatestock.co</a></span> -->
-    </footer>
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-        integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs=" crossorigin="anonymous"></script>
+        </footer>
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+            integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs=" crossorigin="anonymous"></script>
 
-    <script>
-        $(document).ready(function () {
-            $('#homeFullScreen').css({ height: $(window).height(), width: $(window).width() });
-            $(window).resize(function () {
+        <script>
+            $(document).ready(function () {
                 $('#homeFullScreen').css({ height: $(window).height(), width: $(window).width() });
+                $(window).resize(function () {
+                    $('#homeFullScreen').css({ height: $(window).height(), width: $(window).width() });
+                });
+
             });
 
-        });
-
-    </script>
+        </script>
 
 
 </body>
