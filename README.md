@@ -18,7 +18,7 @@ https://harrisfd.github.io/portfolio-page/
 
 ## Usage
 
-<img src=”./Assets/Images/Ffharrisfoster consulting web page.jpg” alt= “JPG of the application”/>
+<img src="./Assets/Images/Ffharrisfoster consulting web page.jpg" alt="JPG of the application"/>
 
 The following portfolio is a showcase of my skills and talents for employers to view while looking for employment. The page consists of information about me, contact information, my samples of my instructional design work, and resume.
 
